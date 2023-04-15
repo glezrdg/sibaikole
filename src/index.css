@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image{
+    background-image: url('../public/photos/building-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
