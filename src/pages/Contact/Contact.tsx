@@ -19,27 +19,27 @@ const Contact:React.FC<IContactProps> = (props) => {
         <div className='w-full h-1/4   flex justify-between absolute  bottom-0 left-0 right-0 '>
           <div className=' flex flex-col justify-between py-10'>
               <div>
-                <div>
-                  <h1 className='text-4xl'>Sibaikole</h1>
-                  <span className=''> Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Corrupti veritat</span>
+                <div className='h-[11vh] flex flex-col justify-between'>
+                  <h1 className='text-4xl font-bold'>Sibaikole</h1>
+                  <span className='text-zinc-300'> Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Corrupti veritat</span>
                 </div>
               </div>
-              <span>2023 C Sibaikole </span>
+              <span className='font-bold text-zinc-300'>2023 C Sibaikole </span>
           </div>
-          <div className='flex flex-col'>
-            <div className='flex flex-col'>
+          <div className='flex flex-col w-1/3 justify-between py-10'>
+            <div className='flex flex-col w-full'>
               <h3>Menu</h3>
               <ul className='flex'>
-                <li className='mx-2'>Inicio</li>
-                <li className='mx-2'>Servicios</li>
-                <li className='mx-2'>Trabajos</li>
-                <li className='mx-2'>Historia</li>
+                <li className='mr-2'>Inicio</li>
+                <li className='mr-2'>Servicios</li>
+                <li className='mr-2'>Trabajos</li>
+                <li className='mr-2'>Historia</li>
               </ul>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col w-full'>
               <h3>Social</h3>
               <ul className='flex'>
-                <li>Facebook</li>
+                <li className='mr-2'>Facebook</li>
                 <li>Instagram</li>
               </ul>
             </div>
